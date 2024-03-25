@@ -1,0 +1,16 @@
+package com.sathya.servlet;
+
+import java.sql.Connection;
+import java.sql.DatabaseMetaData;
+import java.sql.PreparedStatement;
+
+public class ProductDao {
+	public int save(Product product)
+	{
+		int saveResult=0;
+		try(Connection connection=DataBaseUtils.)
+				PreparedStatement preparedStatement=connection.preparedStatement("insert into product"))
+		
+	}
+
+}

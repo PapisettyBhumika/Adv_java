@@ -1,0 +1,16 @@
+package com.sathya.servlet;
+
+import java.sql.Date;
+
+public class Product {
+	private String proId;
+	private String proName;
+	private Double proPrice;
+	private String proBrand;
+	private String proMadeIn;
+	private Date proMfgDate;
+	private Date proExpDate;
+	private byte[] proImage;
+	
+
+}
